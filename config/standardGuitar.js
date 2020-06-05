@@ -1,4 +1,5 @@
 import { notes } from "../constants/notes";
+import { inlays } from "../constants/displayConstants";
 
 export default {
   frets: 21,
@@ -31,15 +32,15 @@ export default {
   ],
   display: {
     inlays: {
-      3: "dot",
-      5: "dot",
-      7: "dot",
-      9: "dot",
-      12: "double-dot",
-      15: "dot",
-      17: "dot",
-      19: "dot",
-      21: "dot",
+      3: inlays.DOT,
+      5: inlays.DOT,
+      7: inlays.DOT,
+      9: inlays.DOT,
+      12: inlays.DOUBLE_DOT,
+      15: inlays.DOT,
+      17: inlays.DOT,
+      19: inlays.DOT,
+      21: inlays.DOT,
     },
   },
 };
